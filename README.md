@@ -68,13 +68,14 @@ Stop Time 2024-05-15 13:35:32
 ```All map queries actually returned no results due to no instances of malicious activity for the 24 hour period after hardening.```
 
 ## Attack Maps After Hardening / Security Controls
-NSG Allowed Malicious Inbound Flows
 
-Linux SSH Authentication Failures
+## NSG Allowed Malicious Inbound Flows
 
-Windows RDP/SMB Authentication Failures
+## Linux SSH Authentication Failures
 
-MS SQL Server Authentication Failures
+## Windows RDP/SMB Authentication Failures
+
+## MS SQL Server Authentication Failures
 
 
 ## Metrics After Hardening / Security Controls
