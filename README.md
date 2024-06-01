@@ -4,7 +4,7 @@
 
 ## Introduction
 
-In this project, I created a mini honeynet in Azure and collected log data from various sources into a Log Analytics workspace. This workspace was then utilized by Microsoft Sentinel to develop attack maps, trigger alerts, and generate incidents. I measured specific security metrics in the unsecured environment for 24 hours, implemented security controls to enhance the environment's security, and then measured the metrics again for another 24 hours. The metrics we will present are:
+In this project, I created a mini honeynet in Azure and collected log data from various sources into a Log Analytics workspace. This workspace was then utilized by Microsoft Sentinel to develop attack maps, trigger alerts, and generate incidents. I measured specific security metrics in the unsecured environment for 24 hours, implemented security controls to enhance the environment's security, and then measured the metrics again for another 24 hours. The metrics I collected are:
 
 - SecurityEvent (Windows Event Logs)
 - Syslog (Linux Event Logs)
@@ -66,6 +66,16 @@ Stop Time 2024-05-15 13:35:32
 ## Attack Maps Before Hardening / Security Controls
 
 ```All map queries actually returned no results due to no instances of malicious activity for the 24 hour period after hardening.```
+
+## Attack Maps After Hardening / Security Controls
+NSG Allowed Malicious Inbound Flows
+
+Linux SSH Authentication Failures
+
+Windows RDP/SMB Authentication Failures
+
+MS SQL Server Authentication Failures
+
 
 ## Metrics After Hardening / Security Controls
 
