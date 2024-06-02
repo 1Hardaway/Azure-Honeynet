@@ -93,6 +93,8 @@ Stop Time	2024-05-31 18:25:02
 | AzureNetworkAnalytics_CL | 0
 
 ## NSG Allowed Malicious Inbound Flows
+![image](https://github.com/clevelandjosiah/Azure-Honeynet/assets/171377691/51093068-04a3-4655-8418-1eebfffdc867)
+
 
 ## Linux SSH Authentication Failures
 
