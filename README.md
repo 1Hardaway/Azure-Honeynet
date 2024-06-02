@@ -49,12 +49,17 @@ For the "AFTER" metrics, I set up the built-in firewalls on the virtual machines
 
 
 ## Attack Maps Before Hardening / Security Controls
+
+## NSG Allowed Malicious Inbound Flows
 <img width="1266" alt="(before) nsg-malicious-allowed-in" src="https://github.com/clevelandjosiah/Azure-Honeynet/assets/171377691/c1765122-eec6-4859-b70e-429b711ef951">
 
+## Linux SSH Authentication Failures 
 <img width="1266" alt="(before) linux-ssh-auth-fail" src="https://github.com/clevelandjosiah/Azure-Honeynet/assets/171377691/e6891142-b587-4fbc-920e-490807fd4556">
 
+## Windows RDP/SMB Authentication Failures 
 <img width="1266" alt="(before) windows-rdp-auth-fail" src="https://github.com/clevelandjosiah/Azure-Honeynet/assets/171377691/36ad413c-c7bc-4080-b3fb-6551a8ae9c24">
 
+MS SQL Server Authentication Failures 
 <img width="1266" alt="(before) mssql-auth-fail" src="https://github.com/clevelandjosiah/Azure-Honeynet/assets/171377691/1c23832c-508b-4808-8996-e2ed9061a28f">
 
 
