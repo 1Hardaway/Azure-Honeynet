@@ -14,10 +14,12 @@ In this project, I created a mini honeynet in Azure and collected log data from 
 - AzureNetworkAnalytics_CL (Malicious Flows allowed into our honeynet)
 
 ## Architecture Before Hardening / Security Controls
-![Architecture Diagram](https://i.imgur.com/aBDwnKb.jpg)
+![image](https://github.com/clevelandjosiah/Azure-Honeynet/assets/171377691/db74ab11-6f48-411c-9a6b-50da5ff22be8)
+
 
 ## Architecture After Hardening / Security Controls
-![Architecture Diagram](https://i.imgur.com/YQNa9Pp.jpg)
+![image](https://github.com/clevelandjosiah/Azure-Honeynet/assets/171377691/173f8d5a-7852-4a3a-b261-8deea35f808c)
+
 
 The architecture of the mini honeynet in Azure consists of the following components:
 
@@ -47,9 +49,15 @@ For the "AFTER" metrics, I set up the built-in firewalls on the virtual machines
 
 
 ## Attack Maps Before Hardening / Security Controls
-![NSG Allowed Inbound Malicious Flows](https://i.imgur.com/1qvswSX.png)<br>
-![Linux Syslog Auth Failures](https://i.imgur.com/G1YgZt6.png)<br>
-![Windows RDP/SMB Auth Failures](https://i.imgur.com/ESr9Dlv.png)<br>
+<img width="1266" alt="(before) nsg-malicious-allowed-in" src="https://github.com/clevelandjosiah/Azure-Honeynet/assets/171377691/c1765122-eec6-4859-b70e-429b711ef951">
+
+<img width="1266" alt="(before) linux-ssh-auth-fail" src="https://github.com/clevelandjosiah/Azure-Honeynet/assets/171377691/e6891142-b587-4fbc-920e-490807fd4556">
+
+<img width="1266" alt="(before) windows-rdp-auth-fail" src="https://github.com/clevelandjosiah/Azure-Honeynet/assets/171377691/36ad413c-c7bc-4080-b3fb-6551a8ae9c24">
+
+<img width="1266" alt="(before) mssql-auth-fail" src="https://github.com/clevelandjosiah/Azure-Honeynet/assets/171377691/1c23832c-508b-4808-8996-e2ed9061a28f">
+
+
 
 ## Metrics Before Hardening / Security Controls
 
