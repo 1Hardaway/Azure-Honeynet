@@ -68,6 +68,22 @@ Stop Time 2024-05-15 13:35:32
 
 ```All map queries actually returned no results due to no instances of malicious activity for the 24 hour period after hardening.```
 
+## NSG Allowed Malicious Inbound Flows
+![image](https://github.com/clevelandjosiah/Azure-Honeynet/assets/171377691/51093068-04a3-4655-8418-1eebfffdc867)
+
+
+## Linux SSH Authentication Failures
+![image](https://github.com/clevelandjosiah/Azure-Honeynet/assets/171377691/20f1ff73-581a-4110-ac78-29b7c194f8b9)
+
+
+## Windows RDP/SMB Authentication Failures
+![image](https://github.com/clevelandjosiah/Azure-Honeynet/assets/171377691/112c0caa-5e55-460e-96a1-6c0e9d51e52b)
+
+
+## MS SQL Server Authentication Failures
+![image](https://github.com/clevelandjosiah/Azure-Honeynet/assets/171377691/63df73f5-05e3-45c8-a494-3ce580c7eee4)
+
+
 ## Metrics After Hardening / Security Controls
 
 The following table shows the metrics we measured in our environment for another 24 hours, but after we have applied security controls:
@@ -92,15 +108,6 @@ Stop Time	2024-05-31 18:25:02
 | SecurityIncident (Sentinel Incidents) | 0
 | AzureNetworkAnalytics_CL | 0
 
-## NSG Allowed Malicious Inbound Flows
-![image](https://github.com/clevelandjosiah/Azure-Honeynet/assets/171377691/51093068-04a3-4655-8418-1eebfffdc867)
-
-
-## Linux SSH Authentication Failures
-
-## Windows RDP/SMB Authentication Failures
-
-## MS SQL Server Authentication Failures
 
 
 ## Conclusion
