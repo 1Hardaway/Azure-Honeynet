@@ -69,15 +69,6 @@ Stop Time 2024-05-15 13:35:32
 
 ## Attack Maps After Hardening / Security Controls
 
-## NSG Allowed Malicious Inbound Flows
-
-## Linux SSH Authentication Failures
-
-## Windows RDP/SMB Authentication Failures
-
-## MS SQL Server Authentication Failures
-
-
 ## Metrics After Hardening / Security Controls
 
 The following table shows the metrics we measured in our environment for another 24 hours, but after we have applied security controls:
@@ -91,6 +82,25 @@ Stop Time	2024-05-31 18:25:02
 | SecurityAlert            | 0
 | SecurityIncident         | 0
 | AzureNetworkAnalytics_CL | 0
+
+## Impact of Security Controls
+
+| Metric                   | Change post-hardening 
+| ------------------------ | -----
+| SecurityEvent (Windows VMs) | 8778
+| Syslog (Linux VMs) | 25
+| SecurityAlert (Microsoft Defender for Cloud) | 0
+| SecurityIncident (Sentinel Incidents) | 0
+| AzureNetworkAnalytics_CL | 0
+
+## NSG Allowed Malicious Inbound Flows
+
+## Linux SSH Authentication Failures
+
+## Windows RDP/SMB Authentication Failures
+
+## MS SQL Server Authentication Failures
+
 
 ## Conclusion
 
