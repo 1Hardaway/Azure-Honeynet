@@ -116,11 +116,11 @@ Stop Time	2024-05-31 18:25:02
 
 | Metric                   | Change post-hardening 
 | ------------------------ | -----
-| SecurityEvent (Windows VMs) | 0
-| Syslog (Linux VMs) | 0
-| SecurityAlert (Microsoft Defender for Cloud) | 0
-| SecurityIncident (Sentinel Incidents) | 0
-| AzureNetworkAnalytics_CL | 0
+| SecurityEvent (Windows VMs) | 83.73%
+| Syslog (Linux VMs) | 99.18%
+| SecurityAlert (Microsoft Defender for Cloud) | 100%
+| SecurityIncident (Sentinel Incidents) | 100%
+| AzureNetworkAnalytics_CL | 100%
 
 
 
